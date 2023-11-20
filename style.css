@@ -15,7 +15,6 @@ body{
     margin: 0 auto;
   }
 header h1{
-    background-color: red;
     color: #d9b362;
     
 }
@@ -39,14 +38,53 @@ nav ul li {
     text-transform: uppercase;
 }
 nav ul li a {
-    color: #424b5a;
+    color: #d9b362;
     text-transform: uppercase;
 }
 .fa {
     padding: 14px;
+
 }
 .show-items {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    header {
+      align-items: center;
+    }
+    nav {
+      padding-top: 0;
+    }
+    nav .toggle {
+      display: none;
+    }
+    #nav-items {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+    }
+  }
