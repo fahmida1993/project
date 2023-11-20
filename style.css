@@ -28,6 +28,20 @@ nav {
     display: flex;
     
 }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+nav ul li {
+    padding: 8px 0;
+    text-transform: uppercase;
+}
+nav ul li a {
+    color: #424b5a;
+    text-transform: uppercase;
+}
 .fa {
     padding: 14px;
 }
