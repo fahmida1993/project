@@ -13,5 +13,7 @@ body{
 .wrapper-width {
     width: 1170px;
     margin: 0 auto;
-    background-color: black;
   }
+header h1{
+    color: #d9b362;
+}
