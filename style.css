@@ -21,20 +21,21 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: -7px;
+  box-shadow: 1px 3px 7px;
 }
 
 header h1 {
-  color: #d9b362;
+  color: #865d06;
   height: 20px;
   margin-top: 8px;
   margin-left: 20px;
 }
 header a {
-  color: #d9b362;
+  color: #865d06;
 }
 nav {
-  border-top: 2px solid #d9b362;
-  border-bottom: 2px solid #d9b362;
+  border-top: 2px solid #865d06;
+  border-bottom: 2px solid #865d06;
   background-color: #414042;
   opacity: 70%;
   width: 100%;
@@ -43,6 +44,7 @@ nav {
   display: flex;
   position: relative;
   margin-top: 10px;
+  box-shadow: 0px 4px 12px;
 }
 nav ul {
   list-style-type: none;
@@ -66,6 +68,7 @@ nav ul li a {
   text-align: center;
   color: #865d06;
   font-size: 4rem;
+  text-shadow: 2px 1px 4px black;
 }
 .title h6 {
   text-align: center;
@@ -105,6 +108,7 @@ nav ul li a {
   font-family: "Roboto", sans-serif;
   color: #d9b362;
   text-align: center;
+  text-shadow: 5px 2px 12px black;
 }
 .hero a {
   color: #d9b362;
@@ -114,6 +118,7 @@ nav ul li a {
 .options section {
   width: 250px;
   height: 340px;
+  box-shadow: 8px 13px 17px;
   background-color: #2b2a2b;
   border-radius: 20px;
   border-top: 4px solid #d9b362;
@@ -152,12 +157,17 @@ nav ul li a {
     height: 300px;
     margin-top: 250px;
     display: flex;
+    
 }
 .about-content{
     width: 1170px;
     height: 250px;
     margin: 0 auto;
     background-color: #2b2a2b;
+    border-top: 1px solid #d9b362;
+    border-bottom: 1px solid #d9b362;
+    box-shadow: 4px -2px 13px;
+    border-radius: 7px;
 }
 .about h6{
     color: #d9b362;
