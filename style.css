@@ -248,6 +248,21 @@ footer{
   background-color: #2b2a2b;
   margin-top: 50px;
 }
+.box{
+  background-color: #d9b362;
+  width: 1170px;
+  height: 150px;
+  margin: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.all-box{
+  background-color: black;
+  width: 20px;
+  height: 20px;
+}
 
 
 
