@@ -212,7 +212,6 @@ nav ul li a {
     height: 300px;
     display: flex;
     text-align: center;
-    top: 20px;
 }
 .about-content{
     width: 1170px;
@@ -327,7 +326,7 @@ nav ul li a {
 
    } 
    .about{
-    margin-top: 587px;
+    margin-top: -19px;
    }
 }
 @media only screen and (min-width: 470px){
@@ -335,10 +334,9 @@ nav ul li a {
     margin-top: 587px;
 
    } 
-   .about {
-    margin-top: 587px;
 
-   } 
+   
+
 }
 
 @media only screen and (min-width: 490px) {
