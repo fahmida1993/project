@@ -143,7 +143,7 @@ nav ul li a {
   line-height: 17px;
   padding: 22px;
   margin-top: -28px;
-  color: aliceblue;
+  color: rgb(204, 206, 207);
 }
 .options a {
   font-size: 1rem;
@@ -227,6 +227,7 @@ nav ul li a {
     margin-top: 14px;
 }
 .about h3{
+    font-family: "Roboto", sans-serif;
     color: #d9b362;
 }
 .about h6{
@@ -249,25 +250,28 @@ nav ul li a {
   margin-top: 50px;
 }
 .box{
+  /* background-color: #d9b362; */
   width: 1170px;
-  height: 150px;
-  margin: 25px;
+  height: 180px;
+  margin: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
   justify-content: space-around;
 }
 .all-box{
-  width: 100px;
-  height: 150px;
+  /* background-color: #d9b362; */
   text-align: center;
   display: flex;
   
 }
-.box2{
-  border-left: 2px solid #d9b362;
+.box1{
+  width: 220px;
+  height: 180px;
 }
-.box3{
+.box2{
+  width: 150px;
+  height: 180px;
   border-left: 2px solid #d9b362;
 }
 footer{
