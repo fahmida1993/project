@@ -248,6 +248,7 @@ nav ul li a {
   text-align: center;
   margin-top: 50px;
   justify-content: center;
+  align-items: center;
 }
 .user{
   width: 1170px;
@@ -310,6 +311,13 @@ nav ul li a {
   justify-content: center;
   justify-content: space-around;
   align-items: center;
+}
+.all-box .box1{
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
 }
 .box h1{
   font-family: "Roboto-bold", sans-serif;
@@ -384,8 +392,6 @@ nav ul li a {
   width: 110px;
   height: 280px;
   border-left: 2px solid #d9b362;
-  display: flex;
-  justify-content: space-between;
   text-align: center;
 }
 
@@ -406,15 +412,19 @@ nav ul li a {
 
 
 footer{
+  height: 40px;
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  align-items: center;
   background-color: #1c1c1c;
+
 }
-.last a{
-  font-size: 1rem;
+footer a{
+  font-size: 1.2rem;
   color: rgb(204, 206, 207);
-  clear: both;
+  
 }
-
-
 
 
 
@@ -513,7 +523,7 @@ footer{
   }
   .all-box{
     width: 360px;
-    height: 150px;
+    height: 275px;
   }
 .show-items{
   
