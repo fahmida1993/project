@@ -264,7 +264,15 @@ nav ul li a {
   height: 20px;
   margin-top: -18px;
   display: flex;
+  justify-content: center;
+  justify-content: space-between;
   color: #d9b362;
+  padding: 14px;
+}
+.star i{
+  font-size: 1rem;
+  padding: 0px;
+  
 }
 
 .all-user{
@@ -290,8 +298,8 @@ nav ul li a {
   color: #d9b362;
 }
 .all-user a h6{
-  padding-top: 25px;
-  font-size: 1rem;
+  padding-top: 20px;
+  font-size: 0.7rem;
   color: rgb(204, 206, 207);
   
 }
@@ -425,21 +433,7 @@ nav ul li a {
   color: #d9b362;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* FOOTER CSS START */
 
 footer{
   height: 40px;
@@ -553,6 +547,9 @@ footer a{
   }
   .all-user{
     width: 312px;
+  }
+  .star{
+    padding: 20px;
   }
 }
 @media only screen and (min-width: 470px){
