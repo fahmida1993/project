@@ -93,3 +93,67 @@ html {
     align-items: center;
   
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 1050px) {
+    header {
+      width: 100%;
+      height: 600px;
+      background-size: cover;
+      border-bottom: 4px solid #d9b362;
+    }
+    .title {
+      margin-top: 200px;
+    }
+    .title h1 {
+      font-size: 10rem;
+    }
+    .title h6 {
+      font-size: 2rem;
+    }
+    .title h4 {
+      font-size: 4rem;
+      padding-top: 17px;
+    }
+    .hero {
+      float: left;
+    }
+    .hero h1 {
+      font-size: 5rem;
+    }
+    .hero a {
+      font-size: 2rem;
+    }
