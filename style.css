@@ -259,12 +259,20 @@ nav ul li a {
   align-items: center;
   justify-content: space-around;
 }
+.star{
+  width: 100%;
+  height: 20px;
+  background-color: #d9b362;
+  margin-top: -18px;
+  display: flex;
+  justify-content: space-between;
+  
+}
 .all-user{
   width: 120px;
   height: 180px;
   background-color: #58595b;
   box-shadow: 2px 4px 11px;
-  margin-top: 20px;
   border-radius: 10px;
   
   
@@ -326,7 +334,7 @@ nav ul li a {
   text-align: center;
 }
 .box1{
-  width: 250px;
+  width: 210px;
   height: 280px;
   background-color: #414042;
   margin-right: 10px;
@@ -389,10 +397,33 @@ nav ul li a {
 }
 
 .box2{
-  width: 110px;
+  width: 150px;
   height: 280px;
   border-left: 2px solid #d9b362;
+  color: #d9b362;
   text-align: center;
+}
+.box2 ul{
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 0px;
+  text-decoration: none;
+  margin-top: -20px;
+}
+.box2 li a{
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: left;
+  color: rgb(204, 206, 207);
+ 
+
+}
+.social{
+  display: flex;
+  justify-content: space-between;
+}
+.social i{
+  color: #d9b362;
 }
 
 
@@ -469,10 +500,6 @@ footer a{
     background-size: cover;
     border-bottom: 4px solid #d9b362;
   }
-  .nav ul{
-     
-
-  }
   .title {
     margin-top: 200px;
   }
@@ -525,9 +552,9 @@ footer a{
     width: 360px;
     height: 275px;
   }
-.show-items{
-  
-}
+  .all-user{
+    width: 312px;
+  }
 }
 @media only screen and (min-width: 470px){
 .work {
