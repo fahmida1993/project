@@ -102,21 +102,59 @@ html {
     width: 50%;
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-  .destination{
+  .input-box label{
+    color: #865d06;
+    font-family: "Roboto"sans-serif;
+    font-size: 1.3rem;
+  }
+  .input-box input{
+    width: 100%;
+    height: 15px;
+    background: transparent;
+    border: none;
+    border: 1px solid #d9b362;
+    border-radius: 30px;
+    padding: 20px 40px 20px 20px;
+  
+  }
+  .destinaton{
     width: 350px;
     margin: 80px auto;
+    
+  }
+  .destinaton h4{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 50px;
+    color: #865d06;
+  }
+  .select{
+    text-align: left;
+    margin-bottom: 20px;
+    color: #865d06;
+  }
+  .on-map{
+    color: #865d06;
+    /* margin-top: 40px; */
+    margin-left: 80px;
+
+  }
+  .main-select{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .input-box2:nth-child(2nd){
+    justify-content: end;
+  }
+  .input-box2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+  }
+  .input-box2 label{
+    color: #865d06;
   }
 
 
