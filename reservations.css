@@ -13,8 +13,16 @@ html {
     background-color: #58595b;
   }
   header {
+    height: 250px;
+    background-image: url(images/header-back2.png);
+    opacity: 20px;
     width: 100%;
-}
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -7px;
+    box-shadow: 1px 3px 7px;
+  }
   
   header h1 {
     color: #865d06;
@@ -24,8 +32,7 @@ html {
     text-shadow: 2px 1px 4px black;
   }
   nav {
-    border-top: 2px solid #865d06;
-    border-bottom: 2px solid #865d06;
+    border: 2px solid #865d06;
     background-color: #414042;
     opacity: 70%;
     width: 100%;
@@ -65,7 +72,7 @@ html {
   
   }
   .back-box{
-    width: 450px;
+    width: 370px;
     height: 800px;
     display: flex;
     display: block;
@@ -74,8 +81,9 @@ html {
     /* justify-content: space-between; */
     /* align-items: center; */
     padding: 30px;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5);
+    margin: 85px auto;
+    background: rgba(0, 0, 0, 0.8);
+    border: 4px solid #865d06;
   }
   .reservation{
     display: flex;
@@ -83,14 +91,15 @@ html {
     margin-top: 60px;
     
   }
-  .input-box{
+  /* .input-box{
     display: flex;
-    padding: 10px;
+    width: 100%;
+    height: 20px;
   }
   .input-box input{
     width: 100%;
-    height: 30px;
-  }
+    height: 20px;
+  } */
 
 
 

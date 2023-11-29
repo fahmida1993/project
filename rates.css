@@ -24,8 +24,7 @@ html {
     text-shadow: 2px 1px 4px black;
   }
   nav {
-    border-top: 2px solid #865d06;
-    border-bottom: 2px solid #865d06;
+    border: 2px solid #865d06;;
     background-color: #414042;
     opacity: 70%;
     width: 100%;
