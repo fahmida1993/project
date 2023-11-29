@@ -72,13 +72,11 @@ html {
   }
   .back-box{
     width: 390px;
-    height: 800px;
+    height: 1000px;
     display: flex;
     display: block;
     text-align: center;
     justify-content: center;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     padding: 30px;
     margin: 85px auto;
     background: rgba(0, 0, 0, 0.8);
@@ -100,29 +98,34 @@ html {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
+    margin-left:-18px;
 
+  }
+  .input-box ::placeholder{
+    color: rgb(204, 206, 207);
+    font-size: 1.3rem;
   }
   .input-box label{
     color: #865d06;
     font-family: "Roboto"sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .input-box input{
     width: 100%;
-    height: 15px;
+    height: 8px;
     background: transparent;
     border: none;
-    border: 1px solid #d9b362;
+    border: 1px solid #865d06;
     border-radius: 30px;
     padding: 20px 40px 20px 20px;
   
   }
-  .destinaton{
+  /* .destinaton{
     width: 350px;
     margin: 80px auto;
     
-  }
-  .destinaton h4{
+  } */
+  h4{
     display: inline-block;
     margin-left: 150px;
     margin-top: 50px;
@@ -151,7 +154,22 @@ html {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
+    margin: 0 -18px;
 
+  }
+  .input-box2 input{
+    width: 100%;
+    height: 8px;
+    background: transparent;
+    border: none;
+    border: 1px solid #865d06;
+    border-radius: 30px;
+    padding: 20px 40px 20px 20px;
+  
+  }
+  .input-box2 ::placeholder{
+    color: rgb(204, 206, 207);
+    font-size: 1.3rem;
   }
   .input-box2 label{
     color: #865d06;
