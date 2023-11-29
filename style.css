@@ -330,6 +330,7 @@ nav ul li a {
 .all-box .box1{
   display: flex;
   align-items: center;
+
   justify-content: center;
 
 }
