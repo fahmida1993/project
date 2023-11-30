@@ -138,11 +138,6 @@ html {
     padding: 20px 40px 20px 20px;
   
   }
-  /* .destinaton{
-    width: 350px;
-    margin: 80px auto;
-    
-  } */
   h4{
     display: inline-block;
     margin-left: 150px;
@@ -212,41 +207,30 @@ html {
 
   /* INFORMATION SECTION START */
   .info-content{
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    margin-bottom: 20px;
   }
-
-
-  .info-content section {
-    width: 250px;
+  .info-content .section{
+    width: 330px;
     height: 340px;
-    box-shadow: 8px 13px 17px;
-    background-color: #2b2a2b;
+    box-shadow: 1px 0px 10px;
+    background-color: #b88518;
     border-radius: 20px;
-    border-top: 4px solid #d9b362;
-    border-bottom: 4px solid #d9b362;
+    margin-top: 8px;
+    text-align: center;
+  }
+  .section h3{
+    border-bottom: 3px solid #1c1c1c;
+  }
+  .section{
+    padding: 15px;
+    font-family: "Roboto"sans-serif;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* FOOTER CSS START */
+/* FOOTER CSS START */
 
 footer{
   height: 40px;
@@ -258,7 +242,7 @@ footer{
 
 }
 footer a{
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgb(204, 206, 207);
   
 }
@@ -354,6 +338,15 @@ footer a{
         padding: 80px;
         margin-left: -21px;
         margin-right: -32px;
+      }
+      main{
+        height: 767px;
+      }
+      .info-content{
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 55px;
+        margin-top: 10px;
       }
 }
 @media only screen and (min-width: 510px) {
