@@ -14,23 +14,23 @@ html {
   }
   header{
     width: 100%;
-    height: 300px;
+    height: 375px;
     position: relative;
-  }
-  .about{
-    width: 100%;
-    height: 300px;
     background-color: #865d06;
-    position: relative;
-    
   }
-  .about h3{
+  .text h3{
     text-align: center;
     padding: 6px;
   }
-  .about p{
+  .text p{
     padding: 8px;
     text-align: center;
+  }
+  main{
+    width: 100%;
+    height: 1060px;
+    display: flex;
+    justify-content: center;
   }
   
   header h1 {
@@ -78,7 +78,6 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
   
   }
 
@@ -92,7 +91,7 @@ html {
     text-align: center;
     justify-content: center;
     padding: 30px;
-    margin: -13px auto;
+    margin: -50px 20px;
     background: rgba(0, 0, 0, 0.6);
     border: 4px solid #865d06;
     position: absolute;
@@ -267,7 +266,14 @@ footer a{
 
 
 
-
+  @media only screen and (min-width: 490px) {
+    .header{
+      height: 321px;
+    }
+    .back-box{
+      width: 600px;
+    }
+  }  
 
 
   @media only screen and (min-width: 768px) {
@@ -303,15 +309,44 @@ footer a{
         text-shadow: 2px 1px 4px black;
     }
     .back-box{
-        width: 1300px;
-        height: 500px;
-        margin: 0 auto;
+        width: 1190px;
+        height: 810px;
+        margin: -100px auto;
         background: rgba(0, 0, 0, 0.5);
       }
+      .reservation{
+        float: left;
+        width: 50%;
+
+      }
+      .reservation form{
+        width: 530px;
+        line-height: 55px;
+      }
+      .destination{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: right;
+        width: 50%;
+        padding: 80px;
+        margin-left: -21px;
+        margin-right: -32px;
+      }
+      /* .destination form{
+        width: 445px;
+        margin-left: 118px;
+      }
+      .on-map label{
+        margin-left: 34px;
+      }
+      .destination h4{
+        margin-left: 190px;
+      } */
 }
 @media only screen and (min-width: 510px) {
-    header {
+    /* header {
       height: 600px;
       background-size: cover;
-    }
+    } */
   }
