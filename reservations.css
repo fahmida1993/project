@@ -210,6 +210,28 @@ html {
     text-decoration: none;
   }
 
+  /* INFORMATION SECTION START */
+  .info-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+  .info-content section {
+    width: 250px;
+    height: 340px;
+    box-shadow: 8px 13px 17px;
+    background-color: #2b2a2b;
+    border-radius: 20px;
+    border-top: 4px solid #d9b362;
+    border-bottom: 4px solid #d9b362;
+  }
+
+
 
 
 
@@ -333,16 +355,6 @@ footer a{
         margin-left: -21px;
         margin-right: -32px;
       }
-      /* .destination form{
-        width: 445px;
-        margin-left: 118px;
-      }
-      .on-map label{
-        margin-left: 34px;
-      }
-      .destination h4{
-        margin-left: 190px;
-      } */
 }
 @media only screen and (min-width: 510px) {
     /* header {
