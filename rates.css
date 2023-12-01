@@ -54,6 +54,7 @@ html {
   
   .fa {
     padding: 14px;
+    color: #b88518;
   }
   
   .show-items {
@@ -62,6 +63,13 @@ html {
     flex-direction: column;
     align-items: center;
   
+  }
+
+  /*  Main CSS START */
+
+  main h1{
+    text-align: center;
+    padding: 20px;
   }
 
 
