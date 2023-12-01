@@ -71,6 +71,19 @@ html {
     text-align: center;
     padding: 20px;
   }
+  .tbl{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td{
+    padding: 1rem;
+  }
 
 
 
@@ -152,7 +165,6 @@ footer{
 }
 @media only screen and (min-width: 510px) {
     header {
-      height: 600px;
       background-size: cover;
     }
   }

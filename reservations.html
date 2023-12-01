@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="reservations.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Ubuntu:wght@300;400&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Ubuntu:wght@300;400&display=swap"
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100;300;400;500&family=Ubuntu:wght@300;400&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100;300;400;500&family=Ubuntu:wght@300;400&display=swap"
         rel="stylesheet">
     <title>Reservations</title>
 </head>
@@ -20,7 +22,7 @@
 
 <body>
     <header>
-        
+
         <nav>
             <h1>ATC</h1>
             <section>
@@ -46,12 +48,13 @@
         </nav>
         <div class="text">
             <h3><q>Thank you for choosing Ambassador for your transportation needs in the Comox Valley.</q></h3>
-            <p>Please fill out the following form completely. This information will be sent to our reservation department and you will receive a confirmation email for your records.
+            <p>Please fill out the following form completely. This information will be sent to our reservation
+                department and you will receive a confirmation email for your records.
 
                 Payment can be made to your driver when they pick you up. We accept cash, debit and Visa/Mastercard.</p>
         </div>
-        
-        
+
+
     </header>
 
     <script>
@@ -61,101 +64,108 @@
         }
     </script>
     <main>
-        
+
         <section class="back-box">
             <h1>MAKE YOUR RESERVATION</h1>
-         <section class="reservation">
-            <form>
-                <div class="main-input-box">
-                    <div class="input-box">
-                        <label for="text">First Name</label>
-                        <input type="text" placeholder="First Name" required>
+            <section class="reservation">
+                <form>
+                    <div class="main-input-box">
+                        <div class="input-box">
+                            <label for="text">First Name</label>
+                            <input type="text" placeholder="First Name" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="text">Second Name</label>
+                            <input type="text" placeholder="Second Name" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="PhoneNumber">Phone Number</label>
+                            <input type="email" placeholder="Enter your Number" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="password">Password</label>
+                            <input type="password" placeholder="Password" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="password">Confirm Password</label>
+                            <input type="password" placeholder="Confirm Password" required>
+                        </div>
                     </div>
-                    <div class="input-box">
-                        <label for="text">Second Name</label>
-                        <input type="text" placeholder="Second Name" required>
+                </form>
+            </section>
+
+            <section class="destination">
+                <form>
+                    <div class="select">
+                        <label><input type="checkbox">Select Destination</label>
                     </div>
-                    <div class="input-box">
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="Email" required>
+                    <div class="main-select">
+
+                        <div class="input-box2">
+                            <label for="text">Pick-Up Point</label>
+                            <input type="text" placeholder="Your Location" required>
+                        </div>
+                        <div class="input-box2">
+                            <label for="text">Choose Destination</label>
+                            <input type="text" placeholder="Choose destination" required>
+                        </div>
+                        <h4>OR</h4>
+                        <div class="on-map">
+                            <label><input type="checkbox">Choose On Map</label>
+                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2581.0375459799984!2d-125.00590701316872!3d49.69126576815139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813316d25abc7%3A0x9e1299c4ba3da02a!2sAmbassador%20Transportation%20and%20Tours!5e0!3m2!1sen!2sca!4v1701235543140!5m2!1sen!2sca"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="btn">
+                            <a href="#">CONFIRM</a>
+
+                        </div>
                     </div>
-                    <div class="input-box">
-                        <label for="PhoneNumber">Phone Number</label>
-                        <input type="email" placeholder="Enter your Number" required>
-                    </div>
-                    <div class="input-box">
-                        <label for="password">Password</label>
-                        <input type="password" placeholder="Password" required>
-                    </div>
-                    <div class="input-box">
-                        <label for="password">Confirm Password</label>
-                        <input type="password" placeholder="Confirm Password" required>
-                    </div>
-                </div>
-                
-            </form>
+
+                </form>
+            </section>
         </section>
-
-        <section class="destination">
-            <form>
-                <div class="select">
-                    <label><input type="checkbox">Select Destination</label>
-                </div>
-             <div class="main-select">
-                
-                <div class="input-box2">
-                    <label for="text">Pick-Up Point</label>
-                    <input type="text" placeholder="Your Location" required>
-                </div>
-                <div class="input-box2">
-                    <label for="text">Choose Destination</label>
-                    <input type="text" placeholder="Choose destination" required>
-                </div>
-                <h4>OR</h4>
-                <div class="on-map">
-                    <label><input type="checkbox">Choose On Map</label>
-                </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2581.0375459799984!2d-125.00590701316872!3d49.69126576815139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813316d25abc7%3A0x9e1299c4ba3da02a!2sAmbassador%20Transportation%20and%20Tours!5e0!3m2!1sen!2sca!4v1701235543140!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div class="btn">
-                    <a href="#">CONFIRM</a>
-        
-                </div>
-             </div>
-                
-            </form>
-        </section>
-    </section>
-</main>
+    </main>
 
 
-<!-- INFORMATION SECTION START -->
+    <!-- INFORMATION SECTION START -->
 
-<section class="info-content">
+    <section class="info-content">
         <div class="section">
             <h3>Need Help?</h3>
-                <p><b>Please note: While we check our reservations every 12 hours, a MINIMUM of 24 hours notice is required.  If you need a more immediate service please call us and we will try to accommodate your request.  We will contact you to confirm any reservation.</b></p>
-            
+            <p><b>Please note: While we check our reservations every 12 hours, a MINIMUM of 24 hours notice is required.
+                    If you need a more immediate service please call us and we will try to accommodate your request. We
+                    will contact you to confirm any reservation.</b></p>
+
         </div>
 
         <div class="section">
             <h3>Exclusive Charters Available!</h3>
-            <p>Please note that Non-Airport Exclusive Charters are available by appointment. 
+            <p>Please note that Non-Airport Exclusive Charters are available by appointment.
 
-                Please contact us at 250-339-5252 (LOCAL) or 1-877-339-5252 (OUT OF AREA) to discuss your custom transportation needs.</p>
-            
+                Please contact us at 250-339-5252 (LOCAL) or 1-877-339-5252 (OUT OF AREA) to discuss your custom
+                transportation needs.</p>
+
         </div>
 
         <div class="section">
             <h3>About Ambassador</h3>
-            <p>Ambassador is licensed with the BC Passenger Transportation Board and the National Safety Certification Board. We are fully insured and in compliance with all provincial and federal regulations, to transport you in safety and style. </p>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-youtube"></i></a>
+            <p>Ambassador is licensed with the BC Passenger Transportation Board and the National Safety Certification
+                Board. We are fully insured and in compliance with all provincial and federal regulations, to transport
+                you in safety and style. </p>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
         </div>
-    
-</section>
 
-    
+    </section>
+
+
 </body>
 
 <footer>
