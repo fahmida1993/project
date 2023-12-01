@@ -80,10 +80,19 @@ html {
   table{
     width: 100%;
     border-collapse: collapse;
+    background-color: #414042;
+  }
+  th{
+    background-color: #282829;
   }
   th, td{
+    text-align: left;
     padding: 1rem;
   }
+  tr:nth-of-type(2n){
+    background-color: #373636;
+  }
+  
 
 
 
