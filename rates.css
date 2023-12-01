@@ -73,9 +73,9 @@ html {
   }
   .tbl{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    overflow-x: scroll;
   }
   table{
     width: 100%;
@@ -83,16 +83,17 @@ html {
     background-color: #414042;
   }
   th{
-    background-color: #282829;
+    color: #865d06;
+    background-color: #161616;
   }
   th, td{
-    text-align: left;
+    text-align: center;
     padding: 1rem;
   }
   tr:nth-of-type(2n){
     background-color: #373636;
-  }
-  
+  } 
+   
 
 
 
@@ -129,7 +130,14 @@ footer{
 
 
 
-
+  /* @media only screen and (max-width: 400px){
+    th{
+      display: none;
+    }
+    td{
+      display: block;
+    }
+  } */
 
 
 
